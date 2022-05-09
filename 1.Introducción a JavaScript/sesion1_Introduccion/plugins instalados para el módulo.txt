@@ -1,0 +1,10 @@
+Plugins = 
+*atajos: javascript (es6) code snippets
+*formateador de código : prettier code formatter -- usar Shift+alt+f para formatear
+*colorear los {}: Bracket Pair Colorizer 
+*Colorear las indentaciones(espaciados de columnas): indent rainbow
+*Muestra errores y precisualiza lo que veremos en el navegador: Quokka.js
+    --Para usarlo: ir a ver->paleta de comandos->escribir Quokka new file
+        se creará un archivo js con el que podremos ir trabajando y previsualizando sobre la marcha el resultado. ver "prueba_quokka.js"
+
+*Servidor local en vivo que se actualiza y muestra el resultado automáticamente: Live server

@@ -1,0 +1,17 @@
+        Primer Proyecto Node:
+
+1º:Con el cmd nos posicionamos en la carpeta que queramos crear el Proyecto.
+
+2º:ejecutar "code ." para que abra VSC dentro de la carpeta.
+
+3º:Abrir un nuevo terminal en VSC: Terminal->Nuevo Terminal ó Ctrl+Shift+ñ.
+
+4º:Inicializamos el proyecto ejecutando en el terminal: "npm init".
+
+5º: Respodner las preguntas que nos hace.
+
+6º: Crear index.js o el archivo que tengamos como "main" en el package.json
+        -En este ejemplo, creamos tambien hola_mundo.js
+
+7º: Para lanzar el hola_mundo, ejecutar en el terminal node nombre_archivo.js  "node hola_mundo.js"
+
