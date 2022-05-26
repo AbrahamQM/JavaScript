@@ -1,1 +1,1 @@
-{"level":"error","message":"No se puede dividir por cero: ReferenceError: variableQueNoExiste is not defined"}
+{"level":"error","message":"No se puede logear variableQueNoExiste: ReferenceError: variableQueNoExiste is not defined"}
