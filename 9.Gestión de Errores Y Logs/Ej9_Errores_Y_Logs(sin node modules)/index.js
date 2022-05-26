@@ -21,5 +21,5 @@ const logger = winston.createLogger({
 try{
     console.log(variableQueNoExiste)
 } catch(e){
-    logger.error("No se puede dividir por cero: " + e)
+    logger.error("No se puede logear variableQueNoExiste : " + e)
 }
