@@ -1,0 +1,12 @@
+{"level":"info","message":"Esto es un logger.info() que contiene este mensaje\n","service":"user-service"}
+{"level":"warn","message":"Esto es un logger.warn() que contiene esta advertencia\n","service":"user-service"}
+{"level":"error","message":"Esto es un logger.error() que contiene este error\n","service":"user-service"}
+
+{"level":"info","message":"Esto es un logger.info() que contiene este mensaje\n","service":"user-service"}
+{"level":"debug","message":"Esto es un logger.debug() que contiene este mensaje de debug\n","service":"user-service"}
+{"level":"warn","message":"Esto es un logger.warn() que contiene esta advertencia\n","service":"user-service"}
+{"level":"error","message":"Esto es un logger.error() que contiene este error\n","service":"user-service"}
+{"level":"info","message":"Esto es un logger.info() que contiene este mensaje\n","service":"user-service"}
+{"level":"debug","message":"Esto es un logger.debug() que contiene este mensaje de debug\n","service":"user-service"}
+{"level":"warn","message":"Esto es un logger.warn() que contiene esta advertencia\n","service":"user-service"}
+{"level":"error","message":"Esto es un logger.error() que contiene este error\n","service":"user-service"}

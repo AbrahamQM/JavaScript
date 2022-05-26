@@ -1,0 +1,50 @@
+/***********************Tema 9 Sesion 2 Logs en JS**********************/
+
+1º- Creamos la carpeta sesion2_Logs y dentro iniciamos un proyecto con Node:
+npm init
+
+2º En el archivo package.json, sustituimos el test por start y e incluimos "node index.js"
+para que apunte a el archivo index.js
+Despues guardamos el package.json
+
+3º Creamos el archivo index.js al que apuntará el comando start
+En el index introducimos un console.log para comprobar como funciona.
+
+----------------EJECUTAR EL CÓDIGO
+4º--EJECUTAR EL START PARA COMPROBAR COMO FUNCIONA:
+En la terminal, estando en la carpeta donde tenemos el package.json, ejecutamos:
+npm start ---> Para que se ejecute lo que hemos indicado en el package.json
+Vemos como se muestra el mensaje (console.log()) indicado.
+
+5º Introducimos otros comandos console.xxx() para ver como se comporta cada uno.
+
+----------------iNSTALAR WINSTON Y USARLO
+6º--Librería para Gestionar y almacenar todos los logs: Wingston
+Para buscar info sobre la librería: https://www.npmjs.com/package/winston
+
+--Instalamos la librería winston desde el terminal (estando en la carpeta que creamos antes)
+npm install winston
+se crea la carpeta node_modules (donde se instalará winston y los demás módulos que instalemos)
+
+--En la Web de winston, podremos ver el código de cómo se usa. (ver parte 2 Winston en index.js)
+copiamos parte del código en index.js que crea un logguer
+sustituimos la palabra console. por logguer. para comprobar como funciona 
+-(excepto en .log() que no funciona)
+
+--Despues de guardar y ejecutarlo con "npm start", se crean unos archivos (combined.log y error.log)
+Uno guardará los errores y el otro todo. Ojo el debug no se guarda (por el level que tiene)
+-Podemos modificar los archivos según queramos (ver Ln:31-32 de index.js)
+
+-----------------Niveles de mensajes de Winston
+
+Código de niveles copiado de la web de winston:
+const levels = {
+  error: 0,
+  warn: 1,
+  info: 2,
+  http: 3,
+  verbose: 4,
+  debug: 5,
+  silly: 6
+};
+
