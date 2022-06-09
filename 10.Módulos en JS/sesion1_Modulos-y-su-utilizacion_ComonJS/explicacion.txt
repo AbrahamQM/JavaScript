@@ -1,0 +1,19 @@
+/*****Para importar el archivo index.js como un módulo :
+ * Modularizamos el index.js para utilizarlo desde este archivo
+ * 
+ * 1º Como buena práctica creamos la carpeta modulos
+ * 
+ * 2º Creamos el archivo en el que vamos a introducir el código a modulalizar (en este caso matematicas.js).
+ * 
+ * 3º Ponemos ahi o definimos el código que quermos utilizar posteriormente
+ * 
+ * 4º Exportamos el múdulo usando module.exports{elementos a exportar} (VER matematicas.js)
+ *
+ * 5º Importamos el módulo, Hay dos formas:
+ *
+ *-1. CommonJS - Usando la palabra clave: require
+ *-2. Import (Desde ES6) Usando la palabra clave: import  (NO LO USAMOS EN ESTA SESIÓN)
+ *
+ *****************VOLVEMOS A INDEX.JS LINEA 46
+
+*/
