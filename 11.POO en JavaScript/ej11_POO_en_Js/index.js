@@ -24,7 +24,7 @@ const alumno1 = new Estudiante("Chicho Terremoto")
 //- Haz la llamada al método obtenDatos
 datos = alumno1.obtenDatos()
 
-console.log(datos)// Muesra:
+console.log(datos)// Muestra:
 // {
 //     nombre: 'Chicho Terremoto',
 //     asignaturas: [ 'Javascript', 'HTML', 'CSS' ]
