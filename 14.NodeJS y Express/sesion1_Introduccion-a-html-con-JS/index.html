@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi primera web con JavaScript</title>
+
+</head>
+<body>
+    <h1>Hola a everybody!!</h1>
+    <p id = "parrafo"> Esto es un párrafo</p>
+    <p id = "parrafo2">Este es el segundo párrafo</p>
+    <!--Integramos nuestro script que hemos puesto en index.js
+    ¡¡¡¡OJO UNA VEZ SE HA CARGADO EL SCRIPT, LO QUE ESTÉ POR DEBAJO NO SERÁ ACCESIBLE DESDE EL NAVEGADOR.!!!!
+    -->
+    <script src="index.js"></script>
+    <!--Si pusiera el "parrafo2" aqui debajo, no podríamos acceder a el elemento desde el navegador,
+    Ya que el script está por encima y aun no ha leido todo lo que le sigue.-->
+
+
+    <!-- ******************  CAMBIOS EFECTUADOS EN SESION 2 ***********************-->
+    <h1>Aquí empieza la sesion 2: "Utilización de librerías de terceros"</h1>
+    
+    <span id="myElement"></span>
+
+    
+    <!-- The script itself, loaded AFTER your root element. -->
+    <script src="https://unpkg.com/typeit@8.6.0/dist/index.umd.js"></script>
+    <script>
+        new TypeIt("#myElement", {
+        strings: "Este es el texto que aparecerá poco a poco!",
+    }).go();
+    </script>
+
+
+</body>
+</html>
