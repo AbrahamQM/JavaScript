@@ -1,0 +1,28 @@
+
+/* estiilo inicial por defecto */
+.seccion {
+    background-color: darkslategray;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.parrafo {
+    background-color: white;
+    padding: 1rem;
+}
+
+/* estilo cuando esta arrastrandose o dragging*/
+.parrafo.dragging {
+    opacity: 0.3; 
+}
+
+/* estilo para la imagen fantasma */
+.imagen-fantasma {
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    /* para que no se vea mientras no hagamos drag, un pequeño truco es: colocarlo fuera de la pantalla*/
+    position: absolute;
+    left: -100vw; /* para que se quede al 100% del ancho de la imagen hacia la izda*/
+}
+
