@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles.css" rel="stylesheet"></link>
+    <title>Tema 17 mapas en HTML</title>
+</head>
+<body>
+    <h1>Tema 17 mapas en HTML</h1>
+    <!--Para incluir un mapa en el html devemos crear un div con id="map" (lo controlaremos desde el js)
+    e importar el script de google maps (al final del código)-->
+    <div id="map">
+    
+    </div>
+</body>
+    <script src="index.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB-vhNBnKWdQ7sTN2vz6hb71m4v1bOYvbw&callback=initMap&v=weekly" defer > </script>
+    <!--el atributo defer hace que se cargue al final, también podríamos usar async para que se cargue de forma síncrona-->
+</html>
